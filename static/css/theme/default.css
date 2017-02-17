@@ -1,0 +1,67 @@
+.admin-header {
+    height: 65px;
+    z-index: 1000;
+    position: relative;
+    background: #438EB9;
+}
+.admin-header-bar {
+    padding-top: 10px;
+    text-align: right;
+}
+.admin-header-bar a{
+    color: white;
+}
+
+.admin-header h3{
+    color: white;
+}
+
+.admin-header .user{
+   padding-top: 5px;
+   color:lightgray;
+}
+.admin-header .user span{
+   font-size: 1em;
+}
+
+.admin-side {
+    width: 200px;
+    height: 100%;
+    z-index: 999;
+    overflow-x: hidden;
+    position: fixed;
+}
+.admin-side-toggle {
+    z-index: 1001;
+    position:fixed;
+    left:0px;
+    top: 70px;
+    width: 5px;
+    display: none;
+    color: #438EB9;
+}
+
+.admin-body {
+    position: absolute;
+    z-index: 998;
+    padding-left: 5px;
+    left: 200px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    width: auto;
+    overflow: hidden;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.remove-radius a{
+-webkit-border-radius: 0 !important;
+-moz-border-radius: 0 !important;
+border-radius: 0 !important;
+}
+
+.vertical-separator{
+    margin-left: 4px;
+    margin-right:7px;
+    border-left:1px #ccc solid;
+}
